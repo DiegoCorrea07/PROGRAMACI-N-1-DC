@@ -17,7 +17,7 @@ int main(){
     while(!feof(archivo)){
         fscanf(archivo, "%d", &numeros);
         if (numeros%10 == 0){
-            fprintf(archivo1,"Buen comienzo \n");
+            fprintf(archivo1,"Perseverancia \n");
         }else{
             fprintf(archivo1,"%d \n", numeros);
         }
